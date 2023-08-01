@@ -50,4 +50,18 @@ graph LR;
   tracked --"Изменения"-->modified
 ```
 
+## *Как читать git status:*
+
+1. В итоге git status показывает только следующие состояния файлов:
+ - staged (Changes to be committed в выводе git status)
+ - modified (Changes not staged for commit)
+ - untracked (Untracked files)
+
+## *Оформление сообщений к коммитам:*
+
+1. Хорошо, когда:
+ - сообщение коммита легко читается
+ - оно информативное
+ - все сообщения оформлены в одном стиле
+
 
